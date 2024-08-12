@@ -18,19 +18,6 @@ import org.testng.Assert;
 public class medicalRecord_page extends StartupPage {
 	
 	public By getPageBarFixedLocator(String navBarName) {
-		if (navBarName.equalsIgnoreCase("mr outpatient list")) {
-			navBarName = "MR Outpatient List";
-		} else if (navBarName.equalsIgnoreCase("mr inpatient list")) {
-			navBarName = "MR Inpatient List";
-		} else if (navBarName.equalsIgnoreCase("birth list")) {
-			navBarName = "Birth List";
-		} else if (navBarName.equalsIgnoreCase("death list")) {
-			navBarName = "Death List";
-		} else if (navBarName.equalsIgnoreCase("reports")) {
-			navBarName = "Reports";
-		} else if (navBarName.equalsIgnoreCase("emergency patient list")) {
-			navBarName = "Emergency Patient List";
-		}
 		return By.xpath("  ");
 
 	}
